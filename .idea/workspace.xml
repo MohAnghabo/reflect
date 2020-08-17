@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:heroku/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="890cdb75-2913-4845-8d8b-259bbdeaae6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/reflect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reflect.iml" afterDir="false" />
+    <list default="true" id="890cdb75-2913-4845-8d8b-259bbdeaae6c" name="Default Changelist" comment="fix dev Dependencies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +35,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="MohAnghabo &lt;moh.anghabo@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gDhryzklgOUaUDNvgOomJC9UUW" />
@@ -44,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597655273039</updated>
-      <workItem from="1597655274287" duration="6311000" />
+      <workItem from="1597655274287" duration="7471000" />
     </task>
     <task id="LOCAL-00001" summary="Setup up resources (firebase &amp; passport)">
       <created>1597659311577</created>
@@ -53,25 +80,63 @@
       <option name="project" value="LOCAL" />
       <updated>1597659311577</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix dev Dependencies">
+      <created>1597665679993</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597665679993</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="heroku/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Setup up resources (firebase &amp; passport)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup up resources (firebase &amp; passport)" />
+    <MESSAGE value="fix dev Dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix dev Dependencies" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2018" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597658054659">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2018" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1600.870/1600.0.1920.1080@1600.0.1920.1080" timestamp="1597658054659" />
-    <state x="2094" y="96" width="921" height="891" key="CommitChangelistDialog2" timestamp="1597659309883">
+    <state x="2094" y="96" width="921" height="891" key="CommitChangelistDialog2" timestamp="1597666006429">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2094" y="96" width="921" height="891" key="CommitChangelistDialog2/0.30.1600.870/1600.0.1920.1080@1600.0.1920.1080" timestamp="1597659309883" />
+    <state x="2094" y="96" width="921" height="891" key="CommitChangelistDialog2/0.30.1600.870/1600.0.1920.1080@1600.0.1920.1080" timestamp="1597666006429" />
     <state width="1600" height="809" key="GridCell.Tab.0.bottom" timestamp="1597658144959">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
@@ -120,6 +185,10 @@
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state width="1600" height="809" key="GridCell.Tab.2.right/0.30.1600.870/1600.0.1920.1080@1600.0.1920.1080" timestamp="1597658144960" />
+    <state x="2155" y="276" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1597665684399">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2155" y="276" width="800" height="531" key="Vcs.Push.Dialog.v2/0.30.1600.870/1600.0.1920.1080@1600.0.1920.1080" timestamp="1597665684399" />
     <state x="2331" y="387" width="448" height="309" key="cloudConfig.PluginsDialog" timestamp="1597663045169">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
