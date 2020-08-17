@@ -34,6 +34,7 @@ passport.use('localAdmin', new LocalStrategy({
             username: username,
             password: password
         });
+
         firebase.auth().signInWithEmailAndPassword(username, password)
             .then(() => {
                 firebase.auth().onAuthStateChanged((user) => {

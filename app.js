@@ -33,6 +33,13 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
+let admin = require('firebase-admin');
+let ServiceAccount = require('./config/ServiceAccount.json');
+
+admin.initializeApp({
+    credential: admin.credential.cert(ServiceAccount)
+});
+
 let app = express();
 
 require('./config/passport-setup');

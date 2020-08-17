@@ -10,10 +10,12 @@ module.exports = {
         res.redirect('/login');
     },
 
-    // isLoggedIn: (req, res, next) => {
-    //     if (req.isAuthenticated()) {
-    //         res.redirect('/');
-    //     }
-    //     return next();
-    // }
+    isLoggedIn: (req, res, next) => {
+        console.log("isLoggedIn")
+
+        if (req.isAuthenticated()) {
+            res.redirect('/');
+        }
+        return next();
+    }
 };

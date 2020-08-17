@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="890cdb75-2913-4845-8d8b-259bbdeaae6c" name="Default Changelist" comment="Setup up resources (firebase &amp; passport)">
-      <change afterPath="$PROJECT_DIR$/views/error.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+    <list default="true" id="890cdb75-2913-4845-8d8b-259bbdeaae6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/passport-setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/passport-setup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +45,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597655273039</updated>
-      <workItem from="1597655274287" duration="3846000" />
+      <workItem from="1597655274287" duration="4465000" />
     </task>
+    <task id="LOCAL-00001" summary="Setup up resources (firebase &amp; passport)">
+      <created>1597659311577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597659311577</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -62,10 +69,10 @@
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2018" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1600.870/1600.0.1920.1080@1600.0.1920.1080" timestamp="1597658054659" />
-    <state x="2094" y="96" width="921" height="891" key="CommitChangelistDialog2" timestamp="1597659277584">
+    <state x="2094" y="96" width="921" height="891" key="CommitChangelistDialog2" timestamp="1597659309883">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2094" y="96" width="921" height="891" key="CommitChangelistDialog2/0.30.1600.870/1600.0.1920.1080@1600.0.1920.1080" timestamp="1597659277584" />
+    <state x="2094" y="96" width="921" height="891" key="CommitChangelistDialog2/0.30.1600.870/1600.0.1920.1080@1600.0.1920.1080" timestamp="1597659309883" />
     <state width="1600" height="809" key="GridCell.Tab.0.bottom" timestamp="1597658144959">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>

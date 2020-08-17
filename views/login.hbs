@@ -53,21 +53,25 @@
             <!-- Card containing the sign-in UI -->
             <div class="mdl-card mdl-shadow--2dp mdl-cell" style="margin: auto; margin-top: 200px;">
                 <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="mdl-textfield__input" type="email" id="auth-sign-in-username"/>
-                        <label class="mdl-textfield__label" for="auth-sign-in-username">Email</label>
-                    </div>
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="mdl-textfield__input" type="password" id="auth-sign-in-password"/>
-                        <label class="mdl-textfield__label" for="auth-sign-in-password">Password</label>
-                    </div>
-                    <button id="auth-sign-in-button"
-                            class="mdl-color-text--grey-700 mdl-button--raised mdl-button mdl-js-button mdl-js-ripple-effect">
-                        <i class="material-icons">account_circle</i> Sign in
-                    </button>
-                    <p>
-                        <strong id="auth-sign-in-error" class="mdl-color-text--orange-900"></strong>
-                    </p>
+                    <form method="POST" action="/login" accept-charset="UTF-8">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="email" name="username"
+                                   id="auth-sign-in-username"/>
+                            <label class="mdl-textfield__label" for="auth-sign-in-username">Email</label>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="password" name="password"
+                                   id="auth-sign-in-password"/>
+                            <label class="mdl-textfield__label" for="auth-sign-in-password">Password</label>
+                        </div>
+                        <button id="auth-sign-in-button"
+                                class="mdl-color-text--grey-700 mdl-button--raised mdl-button mdl-js-button mdl-js-ripple-effect">
+                            <i class="material-icons">account_circle</i> Sign in
+                        </button>
+                        <p>
+                            <strong id="auth-sign-in-error" class="mdl-color-text--orange-900">{{message}}</strong>
+                        </p>
+                    </form>
                 </div>
             </div>
         </div>
