@@ -13,7 +13,7 @@ passport.serializeUser(function (user, done) {
 });
 
 passport.deserializeUser(function (id, done) {
-    admin.auth().getUser()
+    admin.auth().getUser(id)
         .then((user) => {
             let userOBJ = {
                 displayName: user.displayName || user.email,

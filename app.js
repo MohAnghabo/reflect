@@ -33,12 +33,16 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
-let admin = require('firebase-admin');
-let ServiceAccount = require('./config/ServiceAccount.json');
+
+let admin = require("firebase-admin");
+
+let serviceAccount = require("./config/ServiceAccount.json");
 
 admin.initializeApp({
-    credential: admin.credential.cert(ServiceAccount)
+    credential: admin.credential.cert(serviceAccount),
+    databaseURL: "https://reflect-auth-test-208ee.firebaseio.com"
 });
+
 
 let app = express();
 
@@ -90,6 +94,11 @@ app.use('/japanese', japanesesRouter);
 app.use('/english', englishRouter);
 
 app.use('/login', userRouter);
+
+app.get('/logout', function (req, res) {
+    req.logout();
+    res.redirect('/');
+});
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
